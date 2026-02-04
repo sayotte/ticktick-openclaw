@@ -4,7 +4,6 @@
 // Saves tokens to /home/node/.openclaw/secrets/ticktick_tokens.json
 
 const fs = require('fs');
-const fetch = require('node-fetch');
 const SECRETS_PATH = '/home/node/.openclaw/secrets/ticktick_oauth.json';
 const TOKENS_PATH = '/home/node/.openclaw/secrets/ticktick_tokens.json';
 
