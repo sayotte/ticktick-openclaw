@@ -7,7 +7,7 @@ const crypto = require('crypto');
 const SECRETS_PATH = '/home/node/.openclaw/secrets/ticktick_oauth.json';
 const TOKENS_PATH = '/home/node/.openclaw/secrets/ticktick_tokens.json';
 const PKCE_PATH = '/home/node/.openclaw/workspace/skills/ticktick/.pkce.json';
-const REDIRECT_URI = 'https://dianoia.needlesslycomplex.net:3333/callback';
+const REDIRECT_URI = 'http://dianoia.needlesslycomplex.net:3333/callback';
 const PORT = 3333;
 
 function loadJson(p) { return JSON.parse(fs.readFileSync(p,'utf8')); }
